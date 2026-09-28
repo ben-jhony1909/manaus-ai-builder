@@ -23,7 +23,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Tecnologias:** Python, Biblioteca Librosa (para análise de áudio), Gemini API e Atoms.dev.
 * **Links do Projeto:**
   * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1LPxuZWxsa4FR7s4kie0OXe-pY0wZgXUr?usp=sharing)
-  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
+  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev/pt-BR/app/85adf3b29f554c849ed035945187ce2f)
 
 ---
 
@@ -47,7 +47,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **O que aprendi na prática:** Criei uma estratégia de segurança (*Fallback*): se o endereço vier muito errado, a IA tenta consertar o texto antes de enviar para o mapa, evitando que o aplicativo trave ou dê erro para o entregador.
 * **Links do Projeto:**
   * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1c0TR2mE25fecjfskIjkOEbjTNYcqKAnQ?usp=sharing)
-  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
+  * 🎨 [Ver Telas no Atoms.dev](https://jsnaxs.pub.atoms.world/)
 
 ---
 
