@@ -22,7 +22,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Como Funciona:** O sistema em Python ouve o áudio gravado pelo aluno e descobre quais notas foram tocadas. Depois, envia essas informações para a IA do Gemini, que compara o áudio com a partitura correta e gera um relatório mostrando os erros de notas e de ritmo.
 * **Tecnologias:** Python, Biblioteca Librosa (para análise de áudio), Gemini API e Atoms.dev.
 * **Links do Projeto:**
-  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1LPxuZWxsa4FR7s4kie0OXe-pY0wZgXUr?usp=sharing)
   * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
 
 ---
@@ -34,7 +34,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Como Funciona:** O código em Python analisa as datas de validade dos produtos. Quando encontra itens que vão vencer logo, ele pede para a IA (Gemini) criar mensagens de propaganda personalizadas para que o comerciante envie direto para os clientes no WhatsApp.
 * **O que aprendi na prática:** Aprendi a trabalhar com organização de datas e horários em Python (`datetime`), garantindo que o sistema não trave na hora de calcular os dias restantes para o vencimento.
 * **Links do Projeto:**
-  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1ACdWjqHVNRRs6ib2ydFxXwzcEF7pLi9c?usp=sharing)
   * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/app/cbb7a8e965c54888be5660b9b7c25250)
 
 ---
@@ -46,7 +46,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Como Funciona:** A inteligência artificial lê o endereço digitado pelo cliente e corrige os erros de digitação. Depois, o sistema envia o endereço corrigido para um mapa digital (Geopy), que organiza as entregas colocando as casas mais próximas primeiro.
 * **O que aprendi na prática:** Criei uma estratégia de segurança (*Fallback*): se o endereço vier muito errado, a IA tenta consertar o texto antes de enviar para o mapa, evitando que o aplicativo trave ou dê erro para o entregador.
 * **Links do Projeto:**
-  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1c0TR2mE25fecjfskIjkOEbjTNYcqKAnQ?usp=sharing)
   * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
 
 ---
@@ -65,7 +65,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 | **Plano Completo** | R\$ 79,90/mês | Organização por etiquetas, resumos avançados e avisos urgentes no WhatsApp. |
 
 * **Links do Projeto:**
-  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1FLthlURw-YKy2XAQuaH6Ba3zcia3VGlM?usp=sharing)
   * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/share/9c1bd17eb3144660b659b9380fd03c4b/v1)
 
 ---
@@ -77,7 +77,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Como Funciona:** O sistema em Python abre arquivos em PDF de currículos. A IA lê as informações e compara com o que a vaga de emprego pede, dando uma nota de compatibilidade e resumindo os pontos fortes do candidato.
 * **O que aprendi na prática:** Como cada pessoa faz o currículo de um jeito, tive que aprender a criar instruções (prompts) muito firmes e claras para a IA, garantindo que ela devolva a resposta sempre organizada do mesmo jeito, sem quebrar as telas do aplicativo.
 * **Links do Projeto:**
-  * 💻 [Ver Código no Google Colab]()
+  * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/16JaSs-Zq0QMK18ZZpljXb_4omTJXlZd4?usp=sharing)
   * 🎨 [Ver Telas no Atoms.dev] *(Em desenvolvimento)*
 
 ---
