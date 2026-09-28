@@ -3,7 +3,7 @@ Repositório contendo MVPs e scripts de IA/Python para ideias/sonhos (produtivid
  markdown
  # 🚀 Meu Portfólio de Ideias e Protótipos (MVPs)
 
-Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e experimentos práticos. Desenvolvi esses projetos de forma totalmente autodidata, utilizando o **Modo IA do Google** para estruturar a lógica e programando scripts em **Python**. Meu objetivo é resolver problemas reais de mercado, logística e comércio — com um olhar especial para a realidade da minha cidade, Manaus (AM).
+Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e experimentos práticos. Desenvolvi esses projetos de forma totalmente autodidata, utilizando o **Modo IA do Google** para estruturar a lógica e programando scripts em **Python**. Meu objetivo é resolver problemas reais de mercado, logística e comércio — com um olhar especial para a realidade da minha cidade, Manaus (AM) e desenvolvimentos voltados ao estudo musical (cultura e educação) por exemplo.
 
 ---
 
