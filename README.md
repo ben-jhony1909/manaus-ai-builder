@@ -23,7 +23,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **Tecnologias:** Python, Biblioteca Librosa (para análise de áudio), Gemini API e Atoms.dev.
 * **Links do Projeto:**
   * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1LPxuZWxsa4FR7s4kie0OXe-pY0wZgXUr?usp=sharing)
-  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev/pt-BR/app/85adf3b29f554c849ed035945187ce2f)
+  * 🎨 [Ver Telas no Atoms.dev](https://hwdmc4.pub.atoms.world/)
 
 ---
 
@@ -35,7 +35,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **O que aprendi na prática:** Aprendi a trabalhar com organização de datas e horários em Python (`datetime`), garantindo que o sistema não trave na hora de calcular os dias restantes para o vencimento.
 * **Links do Projeto:**
   * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1ACdWjqHVNRRs6ib2ydFxXwzcEF7pLi9c?usp=sharing)
-  * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/app/cbb7a8e965c54888be5660b9b7c25250)
+  * 🎨 [Ver Telas no Atoms.dev](https://1s8qb3g.pub.atoms.world/login)
 
 ---
 
@@ -66,7 +66,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 
 * **Links do Projeto:**
   * 💻 [Ver Código no Google Colab](https://colab.research.google.com/drive/1FLthlURw-YKy2XAQuaH6Ba3zcia3VGlM?usp=sharing)
-  * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/share/9c1bd17eb3144660b659b9380fd03c4b/v1)
+  * 🎨 [Ver Telas no Atoms.dev](https://1iynu1k.atoms.world/)
 
 ---
 
