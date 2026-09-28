@@ -1,15 +1,89 @@
 # manaus-ai-builder
 Repositório contendo MVPs e scripts de IA/Python para ideias/sonhos (produtividade e experimentos)
  markdown
-# 🚀 Meus Projetos de Construção (Portfólio de MVPs) Bem-vindo ao meu repositório central! Aqui estão reunidos os MVPs (Produtos Mínimos Viáveis) e experimentos técnicos que desenvolvi de forma 100% autodidata. Meu foco principal é aplicar **Inteligência Artificial (LLMs)**, **Processamento Digital de Sinais (DSP)** e **automações em Python** para resolver problemas reais de mercado, logística e impacto social — com um olhar especial para a realidade urbana e comercial de Manaus, AM. --- ## 🛠️ Stack Tecnológica Geral * **Front-end / Prototipagem:** [Atoms.dev](https://atoms.dev) (Modo de Equipe com Agentes de IA) * **Back-end & Lógica:** Python (Executado via Google Colab) * **Modelos de IA:** Google AI Studio (Gemini API / Gemini 2.5 Flash) --- ## 🎵 1. ScoreBuddy AI (Projeto Principal) * **O Problema:** Estudantes de música iniciantes sofrem com a falta de feedback imediato ao praticar sozinhos, perpetuando erros de digitação, tempo e afinação. * **A Solução:** Um copiloto de feedback pedagógico e musical em tempo real. * **Como funciona:** O backend em Python usa processamento digital de sinais para extrair frequências cromáticas e variações de pitch do áudio gravado. Esses dados brutos de telemetria são estruturados e enviados via API para o Gemini, que cruza a performance com a partitura esperada, gerando um relatório de correção de notas, tempo e dedilhado. * **Stack Técnica:** Python, `Librosa` (DSP - Processamento Digital de Sinais), Gemini API, Atoms.dev. * **Links do Projeto:** * 💻 [Caderno de Código - Google Colab] (https://colab.research.google.com/drive/1LPxuZWxsa4FR7s4kie0OXe-pY0wZgXUr?usp=sharing) * 🎨 [Protótipo Visual - Atoms.dev](https://atoms.dev/pt-BR/app/85adf3b29f554c849ed035945187ce2f) --- ## 📈 2. ManausEstoque AI (Varejo de Bairro & Impacto Social) * **O Problema:** Pequenos comerciantes de bairros e periferias de Manaus perdem margem de lucro e desperdiçam alimentos devido a produtos que vencem esquecidos nas prateleiras. * **A Solução:** Um monitor inteligente de perdas que calcula o tempo de vida dos produtos e automatiza campanhas de queima de estoque. * **Como funciona:** O script monitora o banco de dados temporal dos produtos. Ao detectar itens próximos ao vencimento, aciona o Gemini 2.5 Flash para gerar cópias de marketing contextualizadas e promocionais, prontas para disparo automatizado via WhatsApp. * **Mentalidade Builder:** O desenvolvimento me ensinou a importância do tratamento específico de dados estruturados (`datetime` em Python) e a criação de padrões rígidos para evitar quebras em sistemas preditivos. * **Links do Projeto:[Caderno de Código - Google Colab] (https://colab.research.google.com/drive/1ACdWjqHVNRRs6ib2ydFxXwzcEF7pLi9c?usp=sharing) ** * 🎨 [Protótipo Visual - Atoms.dev] (https://atoms.dev/pt-BR/app/cbb7a8e965c54888be5660b9b7c25250) --- ## 📍 3. ManausRotas (Logística Urbana e Economia Local)
-* **O Problema:** Entregadores e motoboys em Manaus gastam combustível e tempo precioso devido a rotas ineficientes geradas por endereços digitados de forma incorreta ou incompleta.
-* **A Solução:** Um roteirizador inteligente que une telemetria matemática à inteligência geográfica de mercado, ordenando rotas pelos bairros reais da cidade.
-* **Como funciona:** O sistema utiliza LLMs como roteadores logísticos inteligentes. A IA limpa os erros humanos de digitação e formatação do endereço antes de enviar as coordenadas para a API geográfica (Geopy), ordenando os pontos de entrega do mais próximo ao mais distante.
-* **Mentalidade Builder:** Implementei técnicas de Fallback para garantir resiliência: a IA corrige o texto do endereço de rua antes que a requisição de mapa quebre, salvando a experiência do usuário e evitando falhas na rota.
-* **Links do Projeto:**
-  * 📜 [Caderno de Código - Google Colab](https://colab.research.google.com/drive/1c0TR2mE25fecjfskIjkOEbjTNYcqKAnQ?usp=sharing)
-  * 🎨 [Protótipo Visual - Atoms.dev](https://jsnaxs.pub.atoms.world/)
---- ## 📥 4. InboxFlow (Micro-SaaS de Produtividade) * **O Problema:** Profissionais de alta performance, freelancers e desenvolvedores sofrem com a "infobesidade" e caixas de entrada de e-mail lotadas, perdendo mensagens importantes. * **A Solução:** Um ecossistema de triagem de e-mails inteligente focado em liberar tempo útil de trabalho através de filtros inteligentes de interesse e resumos automatizados. * **Recursos de IA:** Integração com APIs de e-mail para abrir um painel lateral contendo um resumo de 3 tópicos gerado por IA, análise de sentimento do texto (Urgente/Positivo) e templates de resposta rápida (*Reply with AI*). ### 💰 Estratégia de Monetização (Modelo B2C) | Plano | Preço | Recursos Incluídos | | :--- | :--- | :--- | | **Teste Gratuito** | R\$ 0 (14 dias) | Degustação com limite de até 500 e-mails triados. | | **Plano Pro** | R\$ 79,90/mês | Triagem ilimitada por tags, resumos em 3 tópicos, respostas automáticas e alertas críticos via SMS/WhatsApp. * **Links do Projeto:[Caderno de Código - Google Colab](https://colab.research.google.com/drive/1FLthlURw-YKy2XAQuaH6Ba3zcia3VGlM?usp=sharing) ** * 🎨 [Protótipo Visual - Atoms.dev] (https://atoms.dev/pt-BR/share/9c1bd17eb3144660b659b9380fd03c4b/v1)  | --- ## 👥 5. TalentMatch AI (SaaS B2B para Recursos Humanos) * **O Problema:** Times de RH de startups e médias empresas gastam dezenas de horas filtrando centenas de currículos analógicos para vagas técnicas. * **A Solução:** Plataforma inteligente que avalia instantaneamente a compatibilidade de currículos com as descrições das vagas disponíveis.
-* **Como funciona:** O sistema faz a leitura de arquivos em PDF de currículos. Depois, a IA do Gemini compara o texto do currículo com a descrição da vaga de emprego. O sistema gera uma nota de compatibilidade e mostra um resumo com os pontos fortes do candidato para aquela vaga. * **O que aprendi na prática:** Como os PDFs de currículos são muito diferentes uns dos outros, o maior desafio foi fazer a IA entender as informações sem errar. Aprendi a criar comandos (prompts) mais claros e específicos para que a inteligência artificial entregue o resultado organizado sempre do mesmo jeito, evitando falhas na tela do usuário. * **Links do Projeto:[Caderno de Código - Google Colab] - (https://colab.research.google.com/drive/16JaSs-Zq0QMK18ZZpljXb_4omTJXlZd4?usp=sharing) ** * 🎨 [Protótipo Visual - Atoms.dev] (*Em desenvolvimento*)--- ## Conclusão e Aprendizados: Este repositório reúne as minhas primeiras grandes ideias e testes no mundo da tecnologia. Sendo um construtor iniciante e autodidata, usei a Inteligência Artificial para me ajudar a estruturar e projetar essas soluções, focando em problemas reais que observo no comércio e na logística de Manaus. Aprender a unir a lógica do Python (mesmo com scripts simples) à capacidade das ferramentas de IA abriu meus olhos para o potencial de criar produtos funcionais. Meu próximo passo é continuar praticando programação para transformar esses protótipos em sistemas cada vez mais robustos.
+ # 🚀 Meu Portfólio de Ideias e Protótipos (MVPs)
 
- 
+Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e experimentos práticos. Desenvolvi esses projetos de forma totalmente autodidata, utilizando o **Modo IA do Google** para estruturar a lógica e programando scripts em **Python**. Meu objetivo é resolver problemas reais de mercado, logística e comércio — com um olhar especial para a realidade da minha cidade, Manaus (AM).
+
+---
+
+## 🛠️ Ferramentas que Utilizei
+
+* **Para criar as Telas (Front-end):** Atoms.dev (com a ajuda de assistentes de IA)
+* **Para a Lógica do Sistema (Back-end):** Linguagem Python (executada pelo Google Colab)
+* **Inteligência Artificial:** Inteligência do Google (Gemini API)
+
+---
+
+## 🎵 1. ScoreBuddy AI (Projeto Principal)
+
+* **O Problema:** Estudantes iniciantes de música erram notas, ritmo e afinação quando treinam sozinhos em casa, pois não têm ninguém para corrigi-los na hora.
+* **A Solução:** Um assistente virtual que ouve o aluno tocar e diz o que ele precisa melhorar.
+* **Como Funciona:** O sistema em Python ouve o áudio gravado pelo aluno e descobre quais notas foram tocadas. Depois, envia essas informações para a IA do Gemini, que compara o áudio com a partitura correta e gera um relatório mostrando os erros de notas e de ritmo.
+* **Tecnologias:** Python, Biblioteca Librosa (para análise de áudio), Gemini API e Atoms.dev.
+* **Links do Projeto:**
+  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
+
+---
+
+## 📈 2. ManausEstoque AI (Varejo de Bairro & Impacto Social)
+
+* **O Problema:** Pequenos comércios de bairro em Manaus perdem dinheiro e desperdiçam alimentos porque os produtos vencem esquecidos nas prateleiras.
+* **A Solução:** Um sistema que avisa quando os produtos estão perto de vencer e cria promoções automáticas.
+* **Como Funciona:** O código em Python analisa as datas de validade dos produtos. Quando encontra itens que vão vencer logo, ele pede para a IA (Gemini) criar mensagens de propaganda personalizadas para que o comerciante envie direto para os clientes no WhatsApp.
+* **O que aprendi na prática:** Aprendi a trabalhar com organização de datas e horários em Python (`datetime`), garantindo que o sistema não trave na hora de calcular os dias restantes para o vencimento.
+* **Links do Projeto:**
+  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/app/cbb7a8e965c54888be5660b9b7c25250)
+
+---
+
+## 📍 3. ManausRotas (Logística Urbana e Economia Local)
+
+* **O Problema:** Entregadores e motoboys em Manaus gastam muito tempo e combustível porque os clientes digitam os endereços errados ou incompletos na hora da compra.
+* **A Solução:** Um organizador de rotas que corrige os endereços e calcula o caminho mais curto entre os bairros.
+* **Como Funciona:** A inteligência artificial lê o endereço digitado pelo cliente e corrige os erros de digitação. Depois, o sistema envia o endereço corrigido para um mapa digital (Geopy), que organiza as entregas colocando as casas mais próximas primeiro.
+* **O que aprendi na prática:** Criei uma estratégia de segurança (*Fallback*): se o endereço vier muito errado, a IA tenta consertar o texto antes de enviar para o mapa, evitando que o aplicativo trave ou dê erro para o entregador.
+* **Links do Projeto:**
+  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 🎨 [Ver Telas no Atoms.dev](https://atoms.dev)
+
+---
+
+## 📥 4. InboxFlow (Organizador de E-mails)
+
+* **O Problema:** Profissionais e freelancers perdem muito tempo limpando caixas de entrada lotadas e acabam deixando mensagens importantes passarem batidas.
+* **A Solução:** Um painel inteligente que resume e organiza seus e-mails automaticamente.
+* **Como Funciona:** O sistema se conecta com a caixa de e-mails e exibe um resumo da mensagem em apenas 3 tópicos, avisa se o e-mail é urgente e já deixa respostas automáticas prontas para enviar.
+
+### 💰 Planos do Sistema
+
+| Plano | Preço | O que inclui |
+| :--- | :--- | :--- |
+| **Teste Gratuito** | R\$ 0 (14 dias) | Teste básico com limite de até 500 e-mails organizados. |
+| **Plano Completo** | R\$ 79,90/mês | Organização por etiquetas, resumos avançados e avisos urgentes no WhatsApp. |
+
+* **Links do Projeto:**
+  * 💻 [Ver Código no Google Colab](https://google.com)
+  * 🎨 [Ver Telas no Atoms.dev](https://atoms.devpt-BR/share/9c1bd17eb3144660b659b9380fd03c4b/v1)
+
+---
+
+## 👥 5. TalentMatch AI (Análise de Currículos para RH)
+
+* **O Problema:** Pequenas empresas e startups gastam horas e horas lendo dezenas de currículos para encontrar candidatos técnicos.
+* **A Solução:** Uma ferramenta que lê os currículos e diz quais candidatos combinam mais com a vaga.
+* **Como Funciona:** O sistema em Python abre arquivos em PDF de currículos. A IA lê as informações e compara com o que a vaga de emprego pede, dando uma nota de compatibilidade e resumindo os pontos fortes do candidato.
+* **O que aprendi na prática:** Como cada pessoa faz o currículo de um jeito, tive que aprender a criar instruções (prompts) muito firmes e claras para a IA, garantindo que ela devolva a resposta sempre organizada do mesmo jeito, sem quebrar as telas do aplicativo.
+* **Links do Projeto:**
+  * 💻 [Ver Código no Google Colab]()
+  * 🎨 [Ver Telas no Atoms.dev] *(Em desenvolvimento)*
+
+---
+
+## 🗒️ Conclusão e Próximos Passos
+
+Este repositório reúne as minhas primeiras grandes ideias. Como sou um construtor iniciante e autodidata, usei o **Modo IA do Google** como meu tutor e parceiro para estruturar a lógica desses projetos e meus testes no mundo da tecnologia, focando sempre em problemas que vejo acontecer de verdade no comércio de Manaus por exemplo.
+
+Aprender a juntar pequenos códigos em Python (mesmo com scripts simples) com a inteligência da IA abriu minha mente. Meu próximo passo é continuar estudando e praticando programação para transformar esses protótipos em sistemas cada vez mais completos e robustos.
