@@ -57,7 +57,7 @@ Bem-vindo ao meu repositório! Aqui estão reunidos os meus primeiros sistemas e
 * **A Solução:** Um painel inteligente que resume e organiza seus e-mails automaticamente.
 * **Como Funciona:** O sistema se conecta com a caixa de e-mails e exibe um resumo da mensagem em apenas 3 tópicos, avisa se o e-mail é urgente e já deixa respostas automáticas prontas para enviar.
 
-### 💰 Planos do Sistema
+### 💰 Planos do Sistema (valores fictícios e ilustrativos) 
 
 | Plano | Preço | O que inclui |
 | :--- | :--- | :--- |
